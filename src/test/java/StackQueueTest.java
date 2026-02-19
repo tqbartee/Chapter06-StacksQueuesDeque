@@ -24,7 +24,7 @@ class StackQueueTest {
         // Now convert to String
         String stackString = stackList.toString();
         System.out.println("\nFinal stack is: " + stackString);
-        Assertions.assertEquals(stackString, "[7, 9, 6]");
+        Assertions.assertEquals("[7, 9, 6]", stackString);
     }
 
     @Test
@@ -41,7 +41,7 @@ class StackQueueTest {
         // Now convert to String
         String stackString = stackList.toString();
         System.out.println("\nFinal stack is: " + stackString);
-        Assertions.assertEquals(stackString, "[7, 9, 6]");
+        Assertions.assertEquals("[7, 9, 6]", stackString);
     }
 
     @Test
@@ -56,7 +56,7 @@ class StackQueueTest {
         // Now convert to String
         String queueString = queueList.toString();
         System.out.println("\nFinal queue is: " + queueString);
-        Assertions.assertEquals(queueString, "[7, 9, 4]");
+        Assertions.assertEquals("[7, 9, 4]", queueString);
     }
 
     @Test
@@ -71,7 +71,7 @@ class StackQueueTest {
         // Now convert to String
         String queueString = queueList.toString();
         System.out.println("\nFinal queue is: " + queueString);
-        Assertions.assertEquals(queueString, "[7, 9, 4]");
+        Assertions.assertEquals("[7, 9, 4]", queueString);
     }
 
     @Test
@@ -81,7 +81,7 @@ class StackQueueTest {
         // Now convert to String
         String stackString = testStack.toString();
         System.out.println("\nFinal stack is: " + stackString);
-        Assertions.assertEquals(stackString, "[7, 9, 6]");
+        Assertions.assertEquals("[7, 9, 6]", stackString);
     }
 
     @Test
@@ -91,7 +91,7 @@ class StackQueueTest {
         // Now convert to String
         String queueString = testQueue.toString();
         System.out.println("\nFinal queue is: " + queueString);
-        Assertions.assertEquals(queueString, "[7, 9, 4]");
+        Assertions.assertEquals("[7, 9, 4]", queueString);
     }
 
 }
